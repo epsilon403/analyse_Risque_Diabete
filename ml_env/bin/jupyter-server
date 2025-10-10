@@ -1,7 +1,0 @@
-#!/home/epsilon/Desktop/folder_0/projects/sprint_1/analyse_Risque_Diabete/ml_env/bin/python3
-import sys
-from jupyter_server.serverapp import main
-if __name__ == '__main__':
-    if sys.argv[0].endswith('.exe'):
-        sys.argv[0] = sys.argv[0][:-4]
-    sys.exit(main())
